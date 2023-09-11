@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.logo {
+    height: 8vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.logo h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 3.2vw;
+    color: maroon;
+}

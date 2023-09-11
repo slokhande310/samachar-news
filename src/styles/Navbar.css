@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.navbar {
+    height: 8vh;
+    width: 100%;
+    background-color: orangered;
+}
+
+.navbar .navbar-items{
+    height: 100%;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+.navbar .navbar-items li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-items li a {
+    color: white;
+    padding: 2.6vh 20px;
+    transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.navbar .navbar-items li a.active {
+    /* background-color: #c43400; */
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.navbar li a:hover {
+    background-color: #c43400;
+}
