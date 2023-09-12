@@ -1,0 +1,10 @@
+.spinner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.spinner img {
+    width: 80px;
+    margin: 15px 0;
+}

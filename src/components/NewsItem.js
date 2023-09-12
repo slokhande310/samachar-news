@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/NewsItem.css'
-import TestImage from '../img/testimage.jpg'
 
 function NewsItem(props) {
     let {title, description, author, date, newsUrl, imageUrl} = props;
