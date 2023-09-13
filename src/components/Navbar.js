@@ -7,15 +7,17 @@ function Navbar() {
         <>
             <div className="navbar">
                 <div className="navbar-items">
-                    <li><Link className='' to="/">Home</Link></li>
-                    <li><Link className='' to="/world">World</Link></li>
-                    <li><Link className='' to="/business">Business</Link></li>
-                    <li><Link className='' to="/sports">Sports</Link></li>
-                    <li><Link className='' to="/technology">Technology</Link></li>
-                    <li><Link className='' to="/science">Science</Link></li>
-                    <li><Link className='' to="/entertainment">Entertainment and Arts</Link></li>
-                    <li><Link className='' to="/health">Health</Link></li>
+                    <li className='ham'><i class="fa-solid fa-bars"></i></li>
+                    <li className='list-items'><Link className='' to="/">Home</Link></li>
+                    <li className='list-items'><Link className='' to="/world">World</Link></li>
+                    <li className='list-items'><Link className='' to="/business">Business</Link></li>
+                    <li className='list-items'><Link className='' to="/sports">Sports</Link></li>
+                    <li className='list-items'><Link className='' to="/technology">Technology</Link></li>
+                    <li className='list-items'><Link className='' to="/science">Science</Link></li>
+                    <li className='list-items'><Link className='' to="/entertainment">Entertainment</Link></li>
+                    <li className='list-items'><Link className='' to="/health">Health</Link></li>
                 </div>
+
             </div>
         </>
     )

@@ -13,6 +13,8 @@ export default function News(props) {
     const [page, setPage] = useState(1);
     const [totalResults, setTotalResults] = useState(0);
 
+    const capitalize = s => s && s[0].toUpperCase() + s.slice(1)
+
     const updateNews = async () => {
         let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=f4b0f15ab01441179044ee120a956d63&page=1`;
         setLoading(true);
@@ -26,11 +28,11 @@ export default function News(props) {
     useEffect(() => {
         updateNews();
         // eslint-disable-next-line
-    },[]);
+    }, []);
 
     const fetchMoreData = async () => {
         setPage(page + 1);
-        let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=f4b0f15ab01441179044ee120a956d63&page=${page+1}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=f4b0f15ab01441179044ee120a956d63&page=${page + 1}`;
         setLoading(true);
         let data = await fetch(url);
         let parsedData = await data.json();
@@ -42,18 +44,18 @@ export default function News(props) {
     return (
         <>
             <div className="main">
-                <h2>Top Headlines </h2>
+                <h2>Top Headlines: {capitalize((props.category === 'general' && props.country === 'in') ? 'India' : props.category)} </h2>
                 {loading && <NewSpinner />}
                 <InfiniteScroll key={'infyScroll'}
                     dataLength={articles.length}
                     next={fetchMoreData}
                     hasMore={articles.length !== totalResults}
-                    loader={<NewSpinner />}
+                    loader={loading && <NewSpinner />}
                 >
                     <div className="row">
                         {articles.map((element) => {
                             return <div className="column" key={element.url}>
-                                <NewsItem title={element.title ? element.title.slice(0, 70) : ""} description={element.description ? element.description.slice(0, 150) : "Read More on website"} author={element.author ? element.author : 'Unknown'} date={element.publishedAt} newsUrl={element.url} imageUrl={element.urlToImage ? element.urlToImage : testImage} />
+                                <NewsItem title={element.title ? element.title.slice(0, 70) : ""} description={element.description ? element.description.slice(0, 130) : "Read More on website"} author={element.author ? element.author : 'Unknown'} date={element.publishedAt} newsUrl={element.url} imageUrl={element.urlToImage ? element.urlToImage : testImage} />
                             </div>
                         })}
                     </div>

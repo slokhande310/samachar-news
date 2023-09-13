@@ -19,21 +19,21 @@
 .card-title {
     font-family: 'Newsreader', serif;
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 1.4em;
     font-weight: 800;
-    height: 75px;
+    /* height: 75px; */
 }
 
 .card-desc {
     margin-bottom: 10px;
-    font-size: 0.9rem;
-    height: 80px;
+    font-size: 0.8em;
+    /* height: 80px; */
 }
 
 .card-other-info {
     margin-bottom: 10px;
-    font-size: 0.8rem;
-    height: 20px;
+    font-size: 0.82em;
+    /* height: 20px; */
 }
 
 .btn {
@@ -42,14 +42,100 @@
     border: 1px solid black;
     width: 60%;
     color: black;
-    font-size: 1rem;
+    font-size: 1em;
     background-color: white;
     display: flex;
     transition: all .15s ease;
+    position: absolute;
+    bottom: 10px;
 }
 
 .btn:hover {
     text-decoration: underline;
     text-underline-offset: 3px;
     color: orangered;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 1570px) {
+    .column {
+        width: 32%;
+    }
+
+    .row {
+        justify-content: space-evenly;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1230px) {
+    .column {
+        width: 45%;
+    }
+
+    .row {
+        justify-content: space-evenly;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .btn {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .column {
+        width: 100%;
+    }
+
+    .row {
+        justify-content: space-evenly;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .navbar .navbar-items .list-items{
+        display: none;
+    }
+
+    .main {
+        width: 60%;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .navbar .navbar-items .ham {
+        display: block !important;
+    }
+}
+
+
+@media only screen and (max-width: 498px) {
+    .main {
+        width: 100%;
+    }
+
+    .logo h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 299px) {
+    .logo h1 {
+        font-size: 1.6rem;
+    }
+
+    .card {
+        height: 35rem;
+    }
 }
