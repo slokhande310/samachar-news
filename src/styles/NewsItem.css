@@ -68,7 +68,7 @@
         justify-content: space-evenly;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 1230px) {
@@ -87,6 +87,11 @@
     .btn {
         width: 50%;
     }
+
+    .card {
+        height: 35rem;
+    }
+
 }
 
 @media only screen and (max-width: 860px) {
@@ -102,8 +107,12 @@
         font-size: 1.5em;
     }
 
-    .navbar .navbar-items .list-items{
+    .navbar .navbar-items {
         display: none;
+    }
+
+    .navbar .ham {
+        display: block !important;
     }
 
     .main {
@@ -114,13 +123,31 @@
         width: 50%;
     }
 
-    .navbar .navbar-items .ham {
-        display: block !important;
+    /* HAMBURGER MENU */
+
+    .navbar.active {
+        height: 45vh;
+        width: 100%;
+        transition: all 0.3s ease;
     }
+
+    .navbar .navbar-items.active {
+        display: flex;
+        font-size: 1rem;
+        font-weight: 600;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .navbar-items .list-items .links.active {
+        padding: 10px 20vw;
+    }
+
+
 }
 
-
-@media only screen and (max-width: 498px) {
+@media only screen and (max-width: 547px) {
     .main {
         width: 100%;
     }

@@ -2,6 +2,7 @@ import './App.css';
 import Logo from './components/Logo';
 import Navbar from './components/Navbar';
 import News from './components/News';
+
 import {
   BrowserRouter,
   Routes,
