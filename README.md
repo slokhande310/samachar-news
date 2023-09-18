@@ -1,12 +1,12 @@
 # SAMACHAR NEWS
 
-Samachar news is a news webapp that features current and updated news headlines with the exact date and time of its last update.
+Samachar news is a news webapp that features current and updated news headlines with the exact date and time of its last update.\
 
-It consists of different news category like health, sports, entertainment and more...
+It consists of different news category like health, sports, entertainment and more...\
 
-Samachar news is a fully responsive website which supports all device sizes, so that you can be able to read and surf through news on the go.
+Samachar news is a fully responsive website which supports all device sizes, so that you can be able to read and surf through news on the go.\
 
-If you want more info about any specific news, you can click "Read More" and read the whole article.
+If you want more info about any specific news, you can click "Read More" and read the whole article.\
 
 
 # Technologies Used
@@ -15,16 +15,16 @@ ReactJs
 
 # Features 
 
-Top Headlines
+Top Headlines\
 
-World News
+World News\
 
-Sports related news and more
+Sports related news and more\
 
-Fully Responsive 
+Fully Responsive \
 
 
-# Preview - 
+# Preview  
 
 [Homepage]: 
 
@@ -39,7 +39,7 @@ Fully Responsive
 
 # Project Status 
 
-Project is: Partially Complete
+Project is: Partially Complete\
 
 Still learning and adding new features
 
