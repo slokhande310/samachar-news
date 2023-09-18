@@ -5,13 +5,17 @@ It consists of different news category like health, sports, entertainment and mo
 Samachar news is a fully responsive website which supports all device sizes, so that you can be able to read and surf through news on the go.
 If you want more info about any specific news, you can click "Read More" and read the whole article.
 
-## Available Scripts
+# Technologies Used
+ReactJs
 
-In the project directory, you can run:
+# Features 
+Top Headlines
+World News
+Sports related news and more
+Fully Responsive 
 
-### `npm start`
 
-Preview - 
+# Preview - 
 
 [Homepage]: 
 
@@ -24,8 +28,9 @@ Preview -
 
 ![image](https://github.com/slokhande310/samachar-news/assets/54625156/3f90a967-4881-4340-b34a-d862497028ef)
 
-
-
+# Project Status 
+Project is: Partially Complete
+Still learning and adding new features
 
 
 
