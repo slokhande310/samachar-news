@@ -55,7 +55,7 @@ export default function News(props) {
                     <div className="row">
                         {articles.map((element) => {
                             return <div className="column" key={element.url}>
-                                <NewsItem title={element.title ? element.title.slice(0, 70) : ""} description={element.description ? element.description.slice(0, 130) : "Read More on website"} author={element.author ? element.author : 'Unknown'} date={element.publishedAt} newsUrl={element.url} imageUrl={element.urlToImage ? element.urlToImage : testImage} />
+                                <NewsItem source={element.source.name ? element.source.name : 'N/A'} title={element.title ? element.title.slice(0, 70) : ""} description={element.description ? element.description.slice(0, 130) : "Read More on website"} author={element.author ? element.author : 'Unknown'} date={element.publishedAt} newsUrl={element.url} imageUrl={element.urlToImage ? element.urlToImage : testImage} />
                             </div>
                         })}
                     </div>
