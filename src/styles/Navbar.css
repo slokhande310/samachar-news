@@ -4,9 +4,16 @@
     height: 8vh;
     width: 100%;
     background-color: orangered;
-    position: relative;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
     transition: all .25s ease-in-out;
     -webkit-transition: all .25s ease-in-out;
+}
+
+.navbar.fixed {
+    position: fixed;
 }
 
 .navbar .navbar-items {
@@ -28,7 +35,7 @@
 
 .navbar .navbar-items .list-items a {
     color: white;
-    padding: 2.6vh 20px;
+    padding: 1.5vh 20px;
     transition: all .25s ease-in-out;
     -webkit-transition: all .25s ease-in-out;
 }

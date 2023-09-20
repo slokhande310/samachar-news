@@ -38,6 +38,7 @@
 
 .card .source {
     color: white;
+    font-size: 0.8em;
     border-radius: 18px;
     padding: 3px 4px;
     background-color: orangered;
@@ -136,7 +137,7 @@
     /* HAMBURGER MENU */
 
     .navbar.active {
-        height: 45vh;
+        height: 50vh;
         width: 100%;
         transition: all 0.3s ease;
     }
@@ -151,7 +152,7 @@
     }
 
     .navbar .navbar-items .list-items .links.active {
-        padding: 10px 20vw;
+        padding: 8px 20vw;
     }
 
 
