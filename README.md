@@ -29,13 +29,14 @@ Fully Responsive <br>
 [Homepage]: 
 
 
-![image](https://github.com/slokhande310/samachar-news/assets/54625156/9b0eb536-6263-4c66-9c1d-afa539427aab)
+![image](https://github.com/slokhande310/samachar-news/assets/54625156/3bfc187b-f834-4875-b2b2-b3b532336bfb)
 
 
 [Homepage]: Mobile version
 
 
-![image](https://github.com/slokhande310/samachar-news/assets/54625156/3f90a967-4881-4340-b34a-d862497028ef)
+![image](https://github.com/slokhande310/samachar-news/assets/54625156/c4ecb5f6-74ea-4063-9797-118e0fad4bba)
+
 
 # Project Status 
 
