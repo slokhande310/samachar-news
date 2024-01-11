@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/samachar-news/static/css/main.6381ebf9.css",
+    "main.js": "/samachar-news/static/js/main.6c3a548b.js",
+    "static/js/787.351026bc.chunk.js": "/samachar-news/static/js/787.351026bc.chunk.js",
+    "static/media/big-s-logo.png": "/samachar-news/static/media/big-s-logo.6d590f57619da712eb4e.png",
+    "static/media/Spinner.gif": "/samachar-news/static/media/Spinner.1fa4e379e0fb335cc54b.gif",
+    "index.html": "/samachar-news/index.html",
+    "main.6381ebf9.css.map": "/samachar-news/static/css/main.6381ebf9.css.map",
+    "main.6c3a548b.js.map": "/samachar-news/static/js/main.6c3a548b.js.map",
+    "787.351026bc.chunk.js.map": "/samachar-news/static/js/787.351026bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6381ebf9.css",
+    "static/js/main.6c3a548b.js"
+  ]
+}
