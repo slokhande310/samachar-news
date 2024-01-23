@@ -44,7 +44,7 @@ export default function News(props) {
     return (
         <>
             <div className="main">
-                <h2>Top Headlines: {capitalize((props.category === 'general' && props.country === 'in') ? 'India' : props.category)} </h2>
+                <h2>Top Headlines: {capitalize((props.category === 'general' && props.country === 'in') ? 'India' : (props.category === 'general' && props.country === 'us' ? 'World' : props.category))} </h2>
                 {loading && <NewSpinner />}
                 <InfiniteScroll key={'infyScroll'}
                     dataLength={articles.length}
